@@ -48,17 +48,17 @@ const Index = () => {
 
   return (
     <div style={divStyle} id="home">
-      <div className="flex items-center justify-center h-screen w-full text-white">
-        <div className="flex flex-col items-center justify-center w-1/2 text-center">
-          <div className="text-6xl uppercase tracking-wider font-bold">
+      <div className="grid grid-cols-1 md:flex items-center justify-center h-screen w-full text-white">
+        <div className=" md:flex w-full flex-col md:items-center md:justify-center w-1/2 text-center">
+          <div className="text-4xl md:text-6xl uppercase tracking-wider font-bold">
           <span className="text-blue-500 px-2">Chamod</span> Gunarathna
           </div>
           <br />
-          <div className="text-left text-3xl tracking-wider font-semibold">
+          <div className="text-2xl text-left md:text-3xl tracking-wider font-semibold">
             I'm <span className="text-blue-500"> {displayedText}</span>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-1/2">
+        <div className="hidden md:flex flex-col items-center justify-center w-1/2">
           <div className="text-center">
             <img
               src={Profile}

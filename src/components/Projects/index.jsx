@@ -13,10 +13,10 @@ const Index = () => {
        <div id="projects"  >
       <div className="text-5xl font-bold uppercase tracking-widest flex justify-center m-4  p-10">
 Projects       </div>
-       <div className="flex text-xl tracking-wider justify-center ">
+       <div className="p-8 pt-0 flex text-xl tracking-wider justify-center ">
        Explore a compilation of my university, personal, volunteer, and freelance projects listed below.
        </div>
-<div className=" flex  m-10 space-x-12 ">
+<div className="grid p-4 md:flex  md:m-10 md:space-x-12 ">
 
 <ProjectCard
         imageSrc={Grand}
@@ -47,7 +47,7 @@ Projects       </div>
      /> 
      
 </div>
-<div className=" flex m-10 space-x-12 ">
+<div className=" grid p-4 md:flex  md:m-10 md:space-x-12 ">
 <ProjectCard
         imageSrc={Medicare}
         title="Medicare - Blood Donation Web App"

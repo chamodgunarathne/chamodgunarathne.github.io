@@ -40,7 +40,7 @@ const Index = () => {
        </div>
        <div className="flex text-xl tracking-wider justify-center text-white">
         </div>
-       <div className=" flex p-10 m-10 space-x-12 pt-24 justify-center items-center text-slate-700 text-6xl font-bold tracking-widest">
+       <div className=" flex p-10 m-10 space-x-12 pt-24 justify-center items-center text-slate-700 text-4xl md:text-6xl font-bold tracking-widest">
        {displayedText}
        </div>
 

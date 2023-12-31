@@ -4,26 +4,26 @@ import ContactForm from "../ContactMeForm/index.jsx";
 const Index = () => {
   return (
     <div id="contact">
-      <div className="text-5xl font-bold uppercase tracking-widest flex justify-center m-4  p-10">
+      <div className=" text-5xl font-bold uppercase tracking-widest md:flex justify-center m-4  p-10">
         Contact Me{" "}
       </div>
-      <div className="flex text-xl tracking-wider justify-center ">
-        <div className="flex bg-slate-200 p-10 w-full m-20 mt-5">
-          <div className="w-1/2">
+      <div className="grid md:flex text-xl tracking-wider justify-center ">
+        <div className="grid md:flex bg-slate-200 p-10 w-full md:m-20 md:mt-5">
+          <div className="md:w-1/2 p-4">
             <h1 className="text-3xl font-bold tracking-wider text-blue-950">
               Send Message
             </h1>
             <ContactForm />
           </div>
-          <div className="w-1/2">
-            <h2 className="text-3xl font-bold tracking-wider text-blue-950">
+          <div className="md:w-1/2 ">
+            <h2 className="text-3xl font-bold tracking-wider text-blue-950 p-4">
               Contact Me
             </h2>
             <br />
-            <div>
+            <div className="">
               If you have any question or inquiry, feel free to send a message
               through the contact form, email or WhatsApp.
-              <div className="flex flex-col space-x-4 ">
+              <div className="grid md:flex flex-col space-x-4 ">
                 <br />
                 <a
                   href="https://api.whatsapp.com/send?phone=94711358779"

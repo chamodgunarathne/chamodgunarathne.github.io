@@ -17,18 +17,19 @@ const Index = () => {
         backgroundPosition: 'center',
         justifyContent: 'center',
         alignItems: 'center',
+        height:'full',
         // Add any additional styling as needed
       };
 
     return ( 
-       <div id="achievements" style={divStyle} >
-      <div className="text-5xl font-bold uppercase tracking-widest flex justify-center m-4 text-white p-10">
+       <div id="achievements" style={divStyle}  >
+      <div className="grid text-4xl md:text-5xl font-bold uppercase tracking-widest md:flex justify-center m-4 text-white p-10">
         Achievements
        </div>
-       <div className="flex text-xl tracking-wider justify-center text-white">
+       <div className="p-8 pb-0 flex text-xl tracking-wider justify-center text-white">
        In essence, acknowledging and celebrating one's achievements and successes can significantly enhance the overall quality and fulfillment of one's life journey.
        </div>
-       <div className=" flex p-10 m-10 space-x-12 pt-24">
+       <div className="grid p-4 gap-8 w-full justify-center items-center md:flex md:justify-center md:p-10 md:m-10 md:space-x-12 pt-24">
         <AchievementCard 
         imageUrl={Sem1}
         title="Deans List ( Year 01 Semester 01)"
