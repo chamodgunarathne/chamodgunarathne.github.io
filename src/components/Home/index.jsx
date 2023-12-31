@@ -14,7 +14,7 @@ const Index = () => {
         alignItems: 'center',
       };
       
-  const wordsArray = ["a Software Engineering Enthusiast", "a Freelancer", "a Machine Learning Enthusiast", "a Passionate Learner", "a Cloud Computing Enthusiast", "a UI Designer" , "a Fullstack Developer","a Graphic Designer"];
+  const wordsArray = ["a Software Engineering Enthusiast", "a Freelancer", "a Machine Learning Enthusiast", "a Passionate Learner", "a Cloud Computing Enthusiast", "an UI Designer" , "a Fullstack Developer","a Graphic Designer"];
 
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
