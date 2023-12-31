@@ -1,5 +1,5 @@
 {
-  "name": "my_portfolio",
+  "name": "chamodgunarathne.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +43,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "homepage": "https://chamodgunarathne.github.io/chamodgunarathne.github.io",
 }
